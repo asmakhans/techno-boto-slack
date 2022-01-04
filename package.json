@@ -1,0 +1,17 @@
+{
+  "name": "techno-boto-slack",
+  "version": "0.0.0",
+  "description": "A helpful Slack bot",
+  "main": "src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "Asma Khan",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/rtm-api": "^6.0.0",
+    "@slack/web-api": "^6.5.1",
+    "esm": "^3.2.25"
+  }
+}
